@@ -1,0 +1,50 @@
+Arithmetic Operators:
+1 - Basic operators
+* + - / %
+
+2 - Prefix/postfix operators 
+++, --
+
+3 - Compound assignment operators 
++=, -=, /=, *=, %=
+-----------
+Basic Math Operator:
+        Operator        Floating Point Example      Integer Example
+Add         +           1.0 + 2.0 = 3.0             1 + 2 = 3
+Subtract    -           5.0 - 4.0 = 1.0             5 - 4 = 1
+Multiply    *           4.0 * 2.0 = 8.0             4 * 2 = 8
+Divide      /           13.0 / 5.0 = 2.6            13 / 5 = 2
+Modulus     %           13.0 % 5.0 = 3.0            13 % 5 = 3
+-----------
+** Prefix / Postfix Operator
+- ++ increments value by 1
+- As prefix applies operation before returning value 
+
+int myVal = 5;
+System.out.println(++myVal); // 6
+System.out.println(myVal); // 6
+
+- -- decrements value by 1
+- As postfix applies operation after returning value 
+
+int myval =5;
+System.out.println(myVal++); // 5
+System.out.println(myVal); // 6
+---------
+** Compound assignment operators 
+- Combines an operation and assignment 
+- Applies result of right side to left side 
+- Stores that result in variable on left side 
+- Available for 5 basic math operators 
++= -= *= /= %=
+---------
+int myVal = 50;
+myVal -= 5;
+System.out.println(myVal); // 45
+--------
+int result = 100;
+int val1 = 5;
+int val2 = 10;
+result /= val1 * val2; // 100 / 50
+
+System.out.println(result); // 2

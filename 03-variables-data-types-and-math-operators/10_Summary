@@ -1,0 +1,10 @@
+Summary:
+- Variables are strongly typed in Java
+- Primitive types
+    - Integer types, floating point types, char type, boolean type 
+- Math operators
+    - Basic operators, postfix/prefix operators, compound assignment operators 
+- Math operators follow a well-defined order of precedence 
+- Type conversions 
+    - Compiler can automatically apply widening type conversions 
+    - Use type casting to explicitly perform type conversions 

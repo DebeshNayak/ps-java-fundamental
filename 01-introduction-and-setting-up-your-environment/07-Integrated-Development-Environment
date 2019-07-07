@@ -1,0 +1,11 @@
+Integrated Development Environment (IDE)
+1. NetBeans
+    - Provided by Oracle for free
+    - Available with support for Java SE/EE/ME and JavaFX at no extra cost
+    - Does not support Android
+    - And installer containing the JDK and the Java SE bundle of NetBeans is available 
+2. IntelliJIDEA
+    - Free version of a commercial product 
+    - Support Java SE and Android 
+    - Project compatible w/ commercial version (adds Java EE, server debugging, etc.)
+    

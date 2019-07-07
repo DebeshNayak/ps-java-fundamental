@@ -1,0 +1,49 @@
+Avoiding Null:
+- Null is a value that is not actually a value
+- Hard to determine wheter the value not present or just has no value 
+- Funcational programming avoids null 
+- Each language has a structure for determining if a reference holds a real value or not 
+- It is Optional in Java
+------------
+OPTIONAL:
+- In functiona programming, we chain functions. If somewhere in the chain, null is obtained, NullPointerException may be thrown
+- Between the chain items, we should be able to check if a value presetn.
+- This is done by "ifPresent()" method of an Optional instance
+------------
+- Optional<String> myOptional = Optional.of("test");
+- This says, a string may exist inside. Get it with get() method.
+- If a value presents get it, or supply it with something else getOrElse(Supplier s)
+- Check if a value present with isPresent()
+- Do something if value presents ifPresent(Consumer consumer)
+
+-----------
+Optional in Java 8:
+ - java.util.Optional
+
+- Advantages of Java 8 Optional:
+    1. Null checks are not required 
+    2. No more NullPointerException at run-time
+
+Of():
+    Integer value = new Integer(10);
+    Optional<Integer> myValue = Optional.of(val);
+
+isPresent():
+    System.out.println("Second parameter is present: "+myValue.isPresent());
+
+get():
+    // Optional.get() - get the value, value should be present
+    Integer value1 = myValue.get();
+
+orElse():
+    // Optional.orElse() - returns the value if present otherwise returns the default value passed 
+    Integer value1 = myValue.orElse(new Integer(0));
+------------
+- What problem are we trying to solve?
+    - We are trying to solve the problem of null/NullPointerException.
+- What is an Optional?
+    - It is an "immutable wrapper class". Present/Empty
+- How to create/retrieve an Optional value 
+- Best place to use Java Optional (recommentation)
+- When not to use Optional 
+- Imperative vs. Functional Style 

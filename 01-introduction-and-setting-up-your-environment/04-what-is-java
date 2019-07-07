@@ -1,0 +1,18 @@
+What is Java?
+1. Programming language
+    - Syntax 
+    - Data types 
+    - Control flow 
+    - Object-oriented 
+2. Runtime Environment 
+    - Configuration
+    - Security 
+    - Threading 
+    - Input/output
+    ------
+    - Java SE 
+        - Java EE 
+        - Java ME 
+        - JavaFX 
+    - Android
+        - Android runtime environment is distinctly separate from the Java runtimes from Oracle

@@ -1,0 +1,53 @@
+Introducing Packages:
+----------
+package com.debesh.example;
+
+public classs Main {
+    public static void main(String[] args){
+
+    }
+}
+----------
+- Packages provide oraganization
+- Follow standard naming
+- Affect source code file structure
+----------
+Package Naming Conventions:
+- All lowercase
+- Use reversed domain name to assure global uniqueness 
+Ex:
+http://pluralsight.com
+package com.pluralsight;
+- Add further qualifiers to assure uniqueness within a company/group
+Ex:
+package com.pluralsight.myproject;
+package com.pluralsight.accounting.myproject;
+package com.pluralsight.coursemgmt.myproject;
+---------
+Members become part of the Package:
+-
+package com.pluralsight.myproject;
+
+public class Main {
+    public static void main(Strings[] args){
+
+    }
+}
+-
+com.pluralsight.myproject.Main 
+--------
+package name and source file structure:
+- Java requires no correlation between package names and soure code file structure 
+- But most IDE's require a sub-folder for each part of the package name 
+Ex:
+Main.java 
+-
+package com.pluralsight.example;
+
+public classs Main {
+    public static void main(String[] args){
+
+    }
+}
+-
+src -> com -> pluralsight -> example -> Main.java 

@@ -1,0 +1,6 @@
+Primitive Types Are Stroed By-value:
+-----
+int firstValue = 100;
+int otherValue = firstValue;
+firstValue = 50;
+-----

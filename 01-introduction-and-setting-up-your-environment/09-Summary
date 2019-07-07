@@ -1,0 +1,8 @@
+Summary:
+- Java is a language and a runtime environment 
+    - Specific environment features may vary (Java SE/ME/EE, JavaFX, Android)
+    - Lanugage remains pretty consistent 
+- End-users require the Java Runtime Environment (JRE)
+- Developers require the Java Development Kit(JDK)
+- Many Integrated Development Environments (IDE) available
+    - Pick the one you like best 

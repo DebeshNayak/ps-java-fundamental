@@ -1,0 +1,11 @@
+Summary:
+- Execute programs from the command line with the "java" command.
+    - Remember to use the full class name including the package name
+    - On Windows must include JRE bin folder in Path environment variable 
+- Programs are made up of statements 
+    - Statements end with a semicolon 
+    - Parts separated by zero or more whitespaces 
+- Use comments to add notes and hide statements from the compiler 
+- Packages provide organization 
+    - Assure uniqueness 
+    - Most IDE's tie source code file structure to package names 

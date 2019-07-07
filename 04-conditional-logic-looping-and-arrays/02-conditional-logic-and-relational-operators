@@ -1,0 +1,21 @@
+Adding Conditional Logic:
+- Relational operators 
+- Conditional assignments 
+- The if statement 
+- Logical operators 
+-------
+Relational Operators:
+Greater than:
+    Operator: >
+    Integer, Floating Point Example: 5 > 4
+    Character Example: 'c' > 'a'
+    Boolean Example: Not available
+Greater than or equal to:
+    Operator: >=
+    Integer, Floating Point Example: 5 >= 4, 4 >= 4
+    Character Example: 'c' >= 'a', 'a' >= 'a'
+    Boolean Example: Not available
+Less than: 
+    Operator: < 
+    Integer, Floating Point example: 
+

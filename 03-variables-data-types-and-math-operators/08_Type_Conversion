@@ -1,0 +1,32 @@
+Type Conversion:
+---------------
+Implicit type conversion:
+- Conversions performed automatically by the compiler
+---------------
+int iVal = 50;
+long lVal = iVal;
+---------------
+Explicit type conversion:
+- Conversion performed explicitly in code with cast operator
+-------
+long lVal = 50;
+int iVal = (int) lVal; 
+-------
+Implicit Type Conversion:
+- Widening conversions are automatic 
+- Mixed integer sizes 
+    - uses largest integer in equation 
+- Mixed floating point sizes 
+    - Uses double 
+- Mixed integer and floating point 
+    - Uses largest floating point in equation 
+-------
+Explicit Type Conversion:
+- Can performing widening and narrowing 
+- Floating point to integer drops fraction 
+- Use caution with narrowing conversions 
+- Integer to floating point can lose precision 
+More on type conversion: http://bit.ly/pstypeconversion 
+On this article read more about:
+- Widening Primitive Conversion 
+- Narrowing Primitive Conversion  

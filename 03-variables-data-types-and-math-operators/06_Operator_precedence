@@ -1,0 +1,9 @@
+Operator Precedence:
+- Operator are evaluated in a well-defined order 
+Postfix: x++ x--
+Prefix:  ++x --x
+Multiplicative : * / %
+Addivitive: + -
+- Operators of equal precednce are evaluated left-to-right 
+- Can override precednce with parenthesis 
+- Nested parenthesis evaluated from the inside out

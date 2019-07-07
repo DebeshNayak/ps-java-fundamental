@@ -1,0 +1,13 @@
+Comments:
+- Using Comments   
+    - Add human-readable notes to source code 
+    - "Hide" source code without deleting 
+------
+- Types of comments 
+    - Line comment 
+        //
+    - Block comments 
+        /* ... */
+    - JavaDoc comments 
+        /**...*/
+- oracle's JavaDoc intro - http://bit.ly/psjavadoc

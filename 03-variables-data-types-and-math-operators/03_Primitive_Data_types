@@ -1,0 +1,53 @@
+Primitive Data Types:
+- Built into the language
+- Foundation of all other types 
+- Four categories of primitive types 
+    - Integer 
+    - Floating point 
+    - Character 
+    - Boolean 
+** Integer Types:
+Type    Size(bit)        Min value              Max value       Literal Format
+-----   -----            ---------              ---------       --------------
+byte    8               -128                    127                 0
+short   16              -32768                  32767               0
+int     32              -2147483648             2147483647          0
+long    64              -9223372036854775808    9223372036854775807 0L
+
+- Whenever to use a long type, use the "L" at the end of the value
+
+--------
+byte numberOfEnglishLetters = 26;
+short feetInAMile = 5283;
+int milestoSun = 92960000;
+long nationalDebt = 18100000000000L;
+--------
+** Floating Point Types:
+- Implementation of IEEE 754 floating point standard 
+- Stores values containing a fractional portion 
+- Supports positive, negative, and zero values 
+For more info on floating point...
+http://bit.ly/psjavafp
+
+Type    Size(bit)        Min value              Max value       Literal Format
+-----   -----            ---------              ---------       --------------
+float    32              1.4x10^-45             3.4x10^38           0.0f
+double   64              4.9x10^-324            1.7x10^308          0.0 or 0.0d
+-------
+float       = 26.2f;
+double atomWidthInMeters = 0.0000000001d;
+-------
+
+** Character and Boolean Types:
+- The char type stores a single Unicode character 
+    - Literal values placed between single quotes 
+    - For Unicode code points, use \u followed by 4-digit hex value 
+------
+char regularU = 'U';
+char accentedU = '\u00DA'; // U 
+-----
+- The boolean type stores true/false values 
+    - Literal values are true and false
+------
+boolean iLoveJava = true;
+------

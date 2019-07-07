@@ -1,0 +1,9 @@
+Statement Structure:
+Syntax:
+System.out.println( "Hello World" );
+- Programs made up of statements 
+- Statements end with a semicolon
+- Parts separated by zero or more whitespace 
+    - Space, Tab, Newline
+---------------
+Statement Whitesppace
